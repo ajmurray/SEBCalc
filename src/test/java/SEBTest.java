@@ -51,6 +51,7 @@ public class SEBTest {
 
         $("#leaseSum").shouldNotBe(visible);
         $(".button.discrete.thickbox.-CS-apply-button").shouldNotBe(visible);
+        $(".-CS-negative-result").shouldBe(enabled);
     }
 
     @Test
